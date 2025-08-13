@@ -27,5 +27,4 @@ LEFT JOIN order_details
 WHERE order_details.order_number IS NOT NULL
 order by milestone_tracking.project_id;
 
-Select * from vw_milestone_tracking
-where contract_id = 'CTRX-95F3-C04E-3475';
+Select * from vw_milestone_tracking;
